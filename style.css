@@ -1,0 +1,101 @@
+body{
+    font-family:cursive ;
+    font-weight: 300;
+    max-width: 900px;
+    margin: o auto;
+}
+nav{
+    width: 100%;
+    height: 160px;
+    background-color: brown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+}
+nav ul li:hover {
+    background-color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    /*Al ser visitado cambia a este color*/
+    color: rgb(12, 12, 12);
+}
+a:active{
+    /*Al dar click en el enlace cambia a este color*/
+    color: rgb(214, 88, 39);
+}
+/*estilo logo*/
+.img-logo{
+    width: 100px;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+nav ul{
+    padding-top: 90px;/*Para que el menu baje un poco de arriba hacia abajo*/
+    float: right; /*Ubica los elementos del menu de manera flotante a la derecha    */
+}
+.banner{
+    max-width: 100%; /*para que se ajuste al tamaño del body*/
+}
+.feactured{
+    background-color: rgb(243, 207, 159);
+}
+.fp-vodeo{
+    width: 55%;
+    padding: 2em;
+    vertical-align: top;
+}
+article{
+    padding: 30px;
+    background-color: rgb(224, 200, 168);
+    margin: 20px 0;
+}
+article h1{
+    border-bottom: solid thin black;/*sirve para subrayar*/
+}
+/*Hacer que el article aparezca a el lao del video */
+.fp-vodeo, .ft-articulo{
+    display: inline-block;
+}
+/*estilizar boton*/
+.boton.container{
+    text-align: center;
+    background-color:  rgb(214, 88, 39);
+    margin: o auto;
+}
+.boton.container a{
+    text-decoration: none;
+    color: white;
+}
+.boton{
+    padding: 15px;/* mas ancho al boton*/
+}
+.boton.container :hover{
+    background-color: rgb(38, 80, 80);
+}
+.art-image img{
+    max-width: 100%;
+    margin: 0;
+}
+.art-cont{
+    width: 740px;
+    vertical-align: top;
+}
+h2{
+    margin: 0;
+    border-bottom: solid thin black;
+}
+footer{
+    background-color:  rgb(214, 88, 39);
+    color:blue;
+    clear: both;
+    line-height:30px ;
+    text-align: center;
+    padding: 45px;
+}
